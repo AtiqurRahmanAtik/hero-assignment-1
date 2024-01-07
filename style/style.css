@@ -5,7 +5,7 @@ body {
 
 /* banner section */
 .bannar_main {
-  width: 50%;
+  width: 650px;
   height: 35%;
   border-radius: 16px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
@@ -16,6 +16,7 @@ body {
   padding: 50px 140px;
   margin: 0px auto;
   margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 .bannar {
@@ -40,4 +41,45 @@ body {
   margin-left: 0 auto;
 }
 
-/*  */
+/*  offer section start */
+.Offer_container{
+    width: 450px;
+height: 250px;
+margin: 0px auto;
+margin-top: 30px;
+margin-bottom: 0px;
+}
+
+.Offer_title{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700; 
+
+}
+
+.Offer_des{
+    color: #F00;
+/* text-align: center; */
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 0px;
+}
+
+.offer_cata{
+    color: #070211;
+/* text-align: center; */
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 0px;
+}
+
+.offer_img{
+    width: 350px;
+    height: 360px;
+    margin-top: 25px;
+}
