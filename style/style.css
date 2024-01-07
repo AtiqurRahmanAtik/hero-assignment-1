@@ -194,3 +194,64 @@ border: none;
 background: #F00;
 margin-top: 30px;
 }
+
+
+
+
+
+
+ /* subscriber section start */
+
+ .subscri_conten{
+
+  margin-top: 50px;
+  width: 950px;
+  height: 380px;
+  border-radius: 16px;
+background-color: tan;
+ }
+
+ .subs_img{
+  width: 150px;
+  height: 150px;
+ 
+  
+ }
+
+  /* input[type="text"]{
+  padding: 10px;
+  width: 448px;
+  height: 8px;
+  border-radius: 50px;
+background: red;
+
+ }  */
+
+
+label{
+  position: relative;
+}
+
+input{
+  border: none;
+  padding: 7px;
+  width: 30%;
+
+}
+
+.btn_sub{
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+border: none;
+padding: 15px 5px;
+
+background-color: red;
+color:white;
+width: 30%;
+border-radius: 0px 50px 50px 0px;
+
+
+
+}
