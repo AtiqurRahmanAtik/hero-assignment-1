@@ -24,7 +24,7 @@ body {
 }
 
 .bannar_title {
-  color:orangered;
+  color: orangered;
   /* text-align: center; */
   font-size: 32px;
   font-weight: 400;
@@ -32,7 +32,7 @@ body {
 }
 .bannar_des {
   color: springgreen;
- 
+
   font-size: 72px;
   font-weight: 900;
   line-height: 80px;
@@ -42,92 +42,103 @@ body {
 }
 
 /*  offer section start */
-.Offer_container{
-    width: 450px;
-height: 250px;
-margin: 0px auto;
-margin-top: 30px;
-margin-bottom: 0px;
+.Offer_container {
+  width: 450px;
+  height: 250px;
+  margin: 0px auto;
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 
-.Offer_title{
-    color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700; 
-
+.Offer_title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
 }
 
-.Offer_des{
-    color: #F00;
-/* text-align: center; */
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-margin-bottom: 0px;
+.Offer_des {
+  color: #f00;
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0px;
 }
 
-.offer_cata{
-    color: #070211;
-/* text-align: center; */
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-margin-top: 5px;
-margin-bottom: 0px;
+.offer_cata {
+  color: #070211;
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
-.offer_img{
-    width: 350px;
-    height: 360px;
-    margin-top: 25px;
-    margin-bottom: 120px;
+.offer_img {
+  width: 350px;
+  height: 360px;
+  margin-top: 25px;
+  margin-bottom: 0px;
 }
 
 /* welcome section  */
 
-.wel_continner{
+.wel_continner {
   width: 950px;
-  height: 25%;
-  margin-top: 36%;
+  height: 510px;
+  margin-top: 30%;
   display: flex;
   align-items: center;
-  background-image: url('/image/Vectorrr.png');
+  justify-content: space-around;
+  background-image: url("/image/Vectorrr.png");
   background-repeat: no-repeat;
   background-size: cover;
-  fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  position: relative;
+  left: 12%;
+  
 }
-.wel_child{
+.wel_child {
   width: 50%;
+  padding-left: 30px;
 }
 
+.wel_title {
+  color: #fff;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: 5.04px;
+}
 
-.wel_des{
+.wel_des {
   width: 400px;
+
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
-.wel_btn{
-  color:blue;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-text-transform: uppercase;
-padding: 7px ;
+.wel_btn {
+  border: none;
+  margin-left: 20px;
 }
 
-.wel_img{
-  width: 70%;
-  height: 100px;
-
+.wel_img {
+  /* width: 70%;
+  height: 100px; */
 
   display: flex;
-width: 719.83px;
-height: 664.662px;
-padding: 0.008px 0px 0px 0px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  width: 919.83px;
+  height: 664.662px;
+  padding: 0.008px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
