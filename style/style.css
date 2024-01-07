@@ -82,4 +82,52 @@ margin-bottom: 0px;
     width: 350px;
     height: 360px;
     margin-top: 25px;
+    margin-bottom: 120px;
+}
+
+/* welcome section  */
+
+.wel_continner{
+  width: 950px;
+  height: 25%;
+  margin-top: 36%;
+  display: flex;
+  align-items: center;
+  background-image: url('/image/Vectorrr.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.wel_child{
+  width: 50%;
+}
+
+
+.wel_des{
+  width: 400px;
+}
+
+.wel_btn{
+  color:blue;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+padding: 7px ;
+}
+
+.wel_img{
+  width: 70%;
+  height: 100px;
+
+
+  display: flex;
+width: 719.83px;
+height: 664.662px;
+padding: 0.008px 0px 0px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 }
