@@ -1,0 +1,43 @@
+body {
+  font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* banner section */
+.bannar_main {
+  width: 50%;
+  height: 35%;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+
+  background-image: url("../image/Banner Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 140px;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+
+.bannar {
+  text-align: center;
+}
+
+.bannar_title {
+  color:orangered;
+  /* text-align: center; */
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.bannar_des {
+  color: springgreen;
+ 
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 80px;
+  width: 632px;
+  margin-top: 20px;
+  margin-left: 0 auto;
+}
+
+/*  */
