@@ -275,7 +275,6 @@ input {
   width: 950px;
   height: 380px;
   background: black;
-
   position: relative;
   left: 12%;
 }
@@ -288,7 +287,6 @@ input {
 
 .foot_left {
   color: white;
-  font-family: Inter;
   font-size: 17px;
   font-weight: 500;
   line-height: 25px;
@@ -301,7 +299,6 @@ input {
   font-size: 17px;
   margin-bottom: 0px;
   font-weight: 500;
-  font-family: Inter;
 }
 
 .child2 {
@@ -411,5 +408,63 @@ input {
   border-radius: 16px;
   background: url("../image/Rectangle 5.png"),
     lightgray 0px -35.755px / 100% 142.115% no-repeat;
-    box-shadow: -30px 20px 20px blue;
+  box-shadow: 30px -20px 20px blue;
+  margin-bottom: 0px;
+}
+
+
+/*Coming soon section start  */
+.coming_continner {
+  margin-top: 50px;
+  width: 950px;
+  height: 380px;
+  background-color: tan;
+
+  background-image: url('../image/Ellipse 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:290px 290px;
+
+display: flex;
+align-items: center;
+
+position: relative; 
+left: 12%;
+}
+
+
+.coming_des {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 320px;
+}
+
+.circle{
+  border: 8px solid red;
+  width: 69%;
+  height: 83%;
+
+  /* width: 390px;
+  height: 330px; */
+  border-radius: 100%;
+}
+
+
+.coming_year{
+  color: #F00;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 0px;
+}
+
+.coming_right_des{
+margin-top: 10px;
+}
+
+.coming_right{
+position: relative;
+bottom: 25px;
+left: 40px;
 }
