@@ -1,6 +1,7 @@
 body {
   font-family: "Merriweather", serif;
   font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* banner section */
@@ -93,7 +94,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-image:url('../image/Vector.png');
+  background-image: url("../image/Vector.png");
   background-repeat: no-repeat;
   background-size: cover;
   fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
@@ -145,15 +146,13 @@ body {
   margin: 0px;
 }
 
-
 /* event or place section start  */
 .event {
   width: 950px;
   height: 380px;
   fill: linear-gradient(
     180deg,
-    rgba(255, 0, 0, 0.847)50%;
-    rgba(255, 0, 0, 0) 100%
+    rgba(255, 0, 0, 0.847) 50%; rgba(255, 0, 0, 0) 100%
   );
 
   background: hwb(0 4% 8% / 0.129);
@@ -193,7 +192,7 @@ body {
   border: none;
   background: #f00;
   margin-top: 30px;
-  
+  margin-bottom: 0px;
 }
 
 /* subscriber section start */
@@ -204,14 +203,11 @@ body {
   height: 420px;
   border-radius: 16px;
   text-align: center;
-position:relative;
-left: 12%;
-border-radius: 16px;
-background: rgba(255, 0, 0, 0.08);
-
+  position: relative;
+  left: 12%;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.08);
 }
-
-
 
 .subs_img {
   width: 150px;
@@ -220,18 +216,17 @@ background: rgba(255, 0, 0, 0.08);
   margin-bottom: 0px;
 }
 
-
-.subs_title{
-  color:black;
+.subs_title {
+  color: black;
   text-align: center;
-font-size: 30px;
-   font-weight: 900;
- text-transform: capitalize;
- margin-top: 20px;
- margin-bottom: 0px;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
-.subs_des{
+.subs_des {
   width: 60%;
   position: relative;
   left: 20%;
@@ -255,7 +250,7 @@ input {
   padding: 7px;
   width: 30%;
   border-radius: 50px;
- margin-top: 17px;
+  margin-top: 17px;
 }
 
 .btn_sub {
@@ -270,62 +265,51 @@ input {
   color: white;
   width: 30%;
   border-radius: 0px 50px 50px 0px;
-margin-bottom: 0px;
+  margin-bottom: 0px;
 }
-
-
-
 
 /*footer section start  */
 
-.main_footer{
+.main_footer {
   margin-top: 50px;
   width: 950px;
   height: 380px;
-  background:black;
+  background: black;
 
-  position:relative;
+  position: relative;
   left: 12%;
 }
 
-
-
-.foot_continner{
-
+.foot_continner {
   display: flex;
   justify-content: space-around;
   /* margin-top: 60px; */
 }
 
-.foot_left{
+.foot_left {
   color: white;
-font-family: Inter;
-font-size: 17px;
-font-weight: 500;
-line-height: 25px; 
-width: 270px;
-margin-top: 45px;
-
-
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  width: 270px;
+  margin-top: 45px;
 }
 
-.foot_num{
-color: white;
-font-size: 17px;
-margin-bottom: 0px;
-font-weight: 500;
-font-family: Inter;
+.foot_num {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  font-family: Inter;
 }
 
-.child2{
+.child2 {
   margin-left: 65px;
   margin-top: 20px;
-
- 
- 
 }
 
-.child2 a{
+.child2 a {
   text-decoration: none;
   color: white;
   font-size: 17px;
@@ -334,45 +318,98 @@ font-family: Inter;
   font-family: Inter;
 }
 
-.hori_line{
+.hori_line {
   width: 730px;
   margin-bottom: 0px;
 }
 
-.contact_list{
-display: flex;
-justify-content: center;
+.contact_list {
+  display: flex;
+  justify-content: center;
 }
 
-.contact_list >ul{
+.contact_list > ul {
   display: flex;
   gap: 20px;
 }
 
-.contact_list >ul >li{
+.contact_list > ul > li {
   font-size: 1.1rem;
 }
 
-
-
-.la_fo{
+.la_fo {
   /* margin-right: 0px;
   */
 
   position: relative;
-  bottom: 20px ;
+  bottom: 20px;
   left: 20px;
-  transform: translate(20%,+20%);
+  transform: translate(20%, +20%);
 }
 
-.foot_final{
+.foot_final {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-top: 40px;
 }
 
-.foot_la_left{
+.foot_la_left {
   margin-left: 107px;
   margin-top: 30px;
+}
 
+/* Best Gift section and portfoli  */
+
+.gift_continner {
+  margin-top: 50px;
+  width: 950px;
+  position: relative;
+  left: 12%;
+  background-color: tan;
+}
+
+.gift_head {
+  color: red;
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.gift_title {
+  color: black;
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.gift_des {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 70%;
+  margin-bottom: 0px;
+}
+
+/* image section */
+
+.flex-continer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.primary_img {
+  border-radius: 1px;
+  width: 300px;
+  height: 300px;
+}
+
+.flex-continer img:hover {
+  border-radius: 16px;
+  background: url("../image/Rectangle 5.png"),
+    lightgray 0px -35.755px / 100% 142.115% no-repeat;
+    box-shadow: -30px 20px 20px blue;
 }
