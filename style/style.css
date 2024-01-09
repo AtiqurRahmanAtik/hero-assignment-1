@@ -430,6 +430,8 @@ input {
 
   position: relative;
   left: 12%;
+  overflow:hidden;
+  
 }
 
 .coming_des {
@@ -459,6 +461,8 @@ input {
 
 .coming_right_des {
   margin-top: 10px;
+
+
 }
 
 .coming_right {
@@ -466,6 +470,8 @@ input {
   bottom: 25px;
   left: 40px;
   margin-bottom: 0px;
+  text-align:start;
+
 }
 
 /* holidays section  */
